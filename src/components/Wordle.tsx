@@ -117,7 +117,7 @@ export default function Wordle() {
     <div className="flex flex-col items-center justify-between min-h-screen bg-background text-foreground select-none">
       {/* Header */}
       <header className="w-full border-b border-border py-3 text-center">
-        <h1 className="text-lg font-bold tracking-[0.2em] uppercase">Wordle</h1>
+        <h1 className="text-lg font-bold tracking-[0.2em] uppercase">Wuhdul</h1>
       </header>
 
       {/* Toast */}
