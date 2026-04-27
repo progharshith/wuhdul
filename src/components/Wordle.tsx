@@ -1,6 +1,6 @@
 /**
  * Wuhdul — main game component.
- * Designed and built by Harshith Gupta (@progharshith).
+ * Designed & built by Harshith Gupta (@progharshith).
  */
 import { useCallback, useEffect, useState } from "react";
 import { TileData, LetterStatus, evaluateGuess, getKeyboardStatuses } from "@/lib/wordle";
