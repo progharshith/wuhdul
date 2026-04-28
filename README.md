@@ -67,8 +67,8 @@ Make sure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/progharshith/wuhdul.git
+cd wuhdul
 npm install
 ```
 
