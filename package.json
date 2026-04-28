@@ -1,16 +1,16 @@
 {
-  "name": "npm",
+  "name": "wuhdul",
   "version": "0.0.0",
   "private": true,
-  "description": "A modern, browser based clone of the classic **Wordle** game\r built with a clean UI, responsive design, and a fully client side architecture.",
-  "homepage": "https://github.com/harshithsarchive/wuhdul#readme",
+  "description": "A modern, browser based clone of the classic Wordle game.",
+  "homepage": "https://progharshith.github.io/wuhdul/",
   "bugs": {
-    "url": "https://github.com/harshithsarchive/wuhdul/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/harshithsarchive/wuhdul.git"
-  },
+    "url": "https://github.com/progharshith/wuhdul/issues"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/progharshith/wuhdul.git"
+},
   "license": "ISC",
   "author": "",
   "type": "module",
