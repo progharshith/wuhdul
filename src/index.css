@@ -57,8 +57,8 @@
     --primary: 0 0% 95%;
     --primary-foreground: 0 0% 7%;
 
-    --secondary: 0 0% 16%;
-    --secondary-foreground: 0 0% 95%;
+    --secondary: 0 0% 45%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 0 0% 16%;
     --muted-foreground: 0 0% 60%;
@@ -75,7 +75,7 @@
 
     --wordle-correct: 120 40% 38%;
     --wordle-present: 48 70% 45%;
-    --wordle-absent: 0 0% 30%;
+    --wordle-absent: 0 0% 16%;
     --wordle-correct-foreground: 0 0% 100%;
     --wordle-present-foreground: 0 0% 100%;
     --wordle-absent-foreground: 0 0% 80%;
@@ -85,6 +85,15 @@
 }
 
 @layer base {
+  /* High contrast / colorblind mode: orange (correct) and blue (present),
+     matching the NYT Wordle palette. Applies to both light and dark themes. */
+  .colorblind {
+    --wordle-correct: 20 90% 55%;
+    --wordle-present: 210 90% 65%;
+    --wordle-correct-foreground: 0 0% 100%;
+    --wordle-present-foreground: 0 0% 100%;
+  }
+
   * {
     @apply border-border;
   }
