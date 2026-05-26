@@ -166,5 +166,5 @@ Inspired by the original **Wordle** game by The New York Times.
 
 ---
 
-Built with love, have fun
+Built with <3, have fun
 - Harshith :)
