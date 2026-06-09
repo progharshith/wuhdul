@@ -1,6 +1,7 @@
 # 🟩 WuhDul
 A modern, browser-based clone of the classic **Wordle** game
 built with a clean UI, responsive design, and a fully client-side architecture.
+Essentially only exists to provide for a basically infinite ad free wordle.
 
 ---
 
